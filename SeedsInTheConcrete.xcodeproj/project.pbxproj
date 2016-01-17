@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256457531C3386E2009FAD8C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256457521C3386E2009FAD8C /* SWRevealViewController.m */; };
 		256457571C3392E1009FAD8C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256457561C3392E1009FAD8C /* MenuController.swift */; };
+		25775A991C4B17C40036A759 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25775A981C4B17C40036A759 /* SWRevealViewController.m */; };
 		25994FC21C44C56500D30030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25994FC11C44C56500D30030 /* Assets.xcassets */; };
 		25A6B36F1C38BEB800776123 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6B36E1C38BEB800776123 /* HomeTableViewController.swift */; };
 		25A6B3711C38C8AA00776123 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A6B3701C38C8AA00776123 /* MenuTableViewController.swift */; };
@@ -44,9 +44,9 @@
 
 /* Begin PBXFileReference section */
 		256457501C3386E2009FAD8C /* SeedsInTheConcrete-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeedsInTheConcrete-Bridging-Header.h"; sourceTree = "<group>"; };
-		256457511C3386E2009FAD8C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master 2/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		256457521C3386E2009FAD8C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master 2/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		256457561C3392E1009FAD8C /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		25775A971C4B17690036A759 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../SWRevealViewController.h; sourceTree = "<group>"; };
+		25775A981C4B17C40036A759 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../SWRevealViewController.m; sourceTree = "<group>"; };
 		25994FC11C44C56500D30030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A6B36E1C38BEB800776123 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		25A6B3701C38C8AA00776123 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		25B598DC1C307BDC00A11412 /* SeedsInTheConcrete */ = {
 			isa = PBXGroup;
 			children = (
-				256457511C3386E2009FAD8C /* SWRevealViewController.h */,
-				256457521C3386E2009FAD8C /* SWRevealViewController.m */,
+				25775A971C4B17690036A759 /* SWRevealViewController.h */,
+				25775A981C4B17C40036A759 /* SWRevealViewController.m */,
 				256457501C3386E2009FAD8C /* SeedsInTheConcrete-Bridging-Header.h */,
 				25B598DD1C307BDC00A11412 /* AppDelegate.swift */,
 				25B598DF1C307BDC00A11412 /* ViewController.swift */,
@@ -310,8 +310,8 @@
 				25B599541C30F5AE00A11412 /* RestaurantTableViewController.swift in Sources */,
 				25A6B36F1C38BEB800776123 /* HomeTableViewController.swift in Sources */,
 				25B599501C30D71E00A11412 /* PageContentViewController.swift in Sources */,
-				256457531C3386E2009FAD8C /* SWRevealViewController.m in Sources */,
 				25B599521C30EE4D00A11412 /* PageViewController.swift in Sources */,
+				25775A991C4B17C40036A759 /* SWRevealViewController.m in Sources */,
 				25B598E01C307BDC00A11412 /* ViewController.swift in Sources */,
 				25B598DE1C307BDC00A11412 /* AppDelegate.swift in Sources */,
 			);
