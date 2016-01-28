@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25080FBD1C58191000148BA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25080FBC1C58191000148BA1 /* HomeView.swift */; };
+		250D13AE1C4DD3D500DBE092 /* SectionNamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13AD1C4DD3D500DBE092 /* SectionNamesTableViewCell.swift */; };
+		250D13B01C4DD3F000DBE092 /* TheBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13AF1C4DD3F000DBE092 /* TheBookTableViewCell.swift */; };
+		250D13B21C4DD3F700DBE092 /* TheAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13B11C4DD3F700DBE092 /* TheAlbumTableViewCell.swift */; };
+		250D13B41C4DD40000DBE092 /* TheCinemaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13B31C4DD40000DBE092 /* TheCinemaTableViewCell.swift */; };
+		250D13B61C4DD41500DBE092 /* CharacterBioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13B51C4DD41500DBE092 /* CharacterBioTableViewCell.swift */; };
+		250D13B81C4DD41D00DBE092 /* AppFeaturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13B71C4DD41D00DBE092 /* AppFeaturesTableViewCell.swift */; };
+		250D13BA1C4DD42500DBE092 /* SITCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D13B91C4DD42500DBE092 /* SITCTableViewCell.swift */; };
 		256457571C3392E1009FAD8C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256457561C3392E1009FAD8C /* MenuController.swift */; };
 		25775A991C4B17C40036A759 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25775A981C4B17C40036A759 /* SWRevealViewController.m */; };
 		25994FC21C44C56500D30030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25994FC11C44C56500D30030 /* Assets.xcassets */; };
@@ -43,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25080FBC1C58191000148BA1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		250D13AD1C4DD3D500DBE092 /* SectionNamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionNamesTableViewCell.swift; sourceTree = "<group>"; };
+		250D13AF1C4DD3F000DBE092 /* TheBookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBookTableViewCell.swift; sourceTree = "<group>"; };
+		250D13B11C4DD3F700DBE092 /* TheAlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		250D13B31C4DD40000DBE092 /* TheCinemaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheCinemaTableViewCell.swift; sourceTree = "<group>"; };
+		250D13B51C4DD41500DBE092 /* CharacterBioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterBioTableViewCell.swift; sourceTree = "<group>"; };
+		250D13B71C4DD41D00DBE092 /* AppFeaturesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFeaturesTableViewCell.swift; sourceTree = "<group>"; };
+		250D13B91C4DD42500DBE092 /* SITCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SITCTableViewCell.swift; sourceTree = "<group>"; };
 		256457501C3386E2009FAD8C /* SeedsInTheConcrete-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeedsInTheConcrete-Bridging-Header.h"; sourceTree = "<group>"; };
 		256457561C3392E1009FAD8C /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		25775A971C4B17690036A759 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../SWRevealViewController.h; sourceTree = "<group>"; };
@@ -94,23 +110,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250D13AB1C4DD05F00DBE092 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				25A6B3701C38C8AA00776123 /* MenuTableViewController.swift */,
+				25775A981C4B17C40036A759 /* SWRevealViewController.m */,
+				256457501C3386E2009FAD8C /* SeedsInTheConcrete-Bridging-Header.h */,
+				25775A971C4B17690036A759 /* SWRevealViewController.h */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		250D13AC1C4DD3B900DBE092 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				250D13AD1C4DD3D500DBE092 /* SectionNamesTableViewCell.swift */,
+				250D13AF1C4DD3F000DBE092 /* TheBookTableViewCell.swift */,
+				250D13B11C4DD3F700DBE092 /* TheAlbumTableViewCell.swift */,
+				250D13B31C4DD40000DBE092 /* TheCinemaTableViewCell.swift */,
+				250D13B51C4DD41500DBE092 /* CharacterBioTableViewCell.swift */,
+				250D13B71C4DD41D00DBE092 /* AppFeaturesTableViewCell.swift */,
+				250D13B91C4DD42500DBE092 /* SITCTableViewCell.swift */,
+				25080FBC1C58191000148BA1 /* HomeView.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
 		256457541C339240009FAD8C /* LogIn&SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				25B598DF1C307BDC00A11412 /* ViewController.swift */,
 				25B5990B1C30BD7900A11412 /* SignUpViewController.swift */,
 				25B5990D1C30BD8800A11412 /* LogInViewController.swift */,
 			);
 			name = "LogIn&SignUp";
 			sourceTree = "<group>";
 		};
-		256457551C33925B009FAD8C /* Slides */ = {
+		256457551C33925B009FAD8C /* Intro Slides */ = {
 			isa = PBXGroup;
 			children = (
 				25B5994F1C30D71E00A11412 /* PageContentViewController.swift */,
 				25B599511C30EE4D00A11412 /* PageViewController.swift */,
 				25B599531C30F5AE00A11412 /* RestaurantTableViewController.swift */,
 			);
-			name = Slides;
+			name = "Intro Slides";
 			sourceTree = "<group>";
 		};
 		25B598D11C307BDC00A11412 = {
@@ -136,16 +179,13 @@
 		25B598DC1C307BDC00A11412 /* SeedsInTheConcrete */ = {
 			isa = PBXGroup;
 			children = (
-				25775A971C4B17690036A759 /* SWRevealViewController.h */,
-				25775A981C4B17C40036A759 /* SWRevealViewController.m */,
-				256457501C3386E2009FAD8C /* SeedsInTheConcrete-Bridging-Header.h */,
+				250D13AB1C4DD05F00DBE092 /* SlideMenu */,
 				25B598DD1C307BDC00A11412 /* AppDelegate.swift */,
-				25B598DF1C307BDC00A11412 /* ViewController.swift */,
 				256457541C339240009FAD8C /* LogIn&SignUp */,
-				256457551C33925B009FAD8C /* Slides */,
+				256457551C33925B009FAD8C /* Intro Slides */,
 				256457561C3392E1009FAD8C /* MenuController.swift */,
-				25A6B3701C38C8AA00776123 /* MenuTableViewController.swift */,
 				25A6B36E1C38BEB800776123 /* HomeTableViewController.swift */,
+				250D13AC1C4DD3B900DBE092 /* TableCells */,
 				25B598E11C307BDC00A11412 /* Main.storyboard */,
 				25B598E61C307BDC00A11412 /* LaunchScreen.storyboard */,
 				25B598E91C307BDC00A11412 /* Info.plist */,
@@ -304,16 +344,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				256457571C3392E1009FAD8C /* MenuController.swift in Sources */,
+				250D13B81C4DD41D00DBE092 /* AppFeaturesTableViewCell.swift in Sources */,
 				25B5990E1C30BD8800A11412 /* LogInViewController.swift in Sources */,
 				25A6B3711C38C8AA00776123 /* MenuTableViewController.swift in Sources */,
 				25B5990C1C30BD7900A11412 /* SignUpViewController.swift in Sources */,
+				250D13B61C4DD41500DBE092 /* CharacterBioTableViewCell.swift in Sources */,
 				25B599541C30F5AE00A11412 /* RestaurantTableViewController.swift in Sources */,
 				25A6B36F1C38BEB800776123 /* HomeTableViewController.swift in Sources */,
+				250D13BA1C4DD42500DBE092 /* SITCTableViewCell.swift in Sources */,
+				250D13AE1C4DD3D500DBE092 /* SectionNamesTableViewCell.swift in Sources */,
 				25B599501C30D71E00A11412 /* PageContentViewController.swift in Sources */,
+				250D13B01C4DD3F000DBE092 /* TheBookTableViewCell.swift in Sources */,
+				250D13B21C4DD3F700DBE092 /* TheAlbumTableViewCell.swift in Sources */,
 				25B599521C30EE4D00A11412 /* PageViewController.swift in Sources */,
+				250D13B41C4DD40000DBE092 /* TheCinemaTableViewCell.swift in Sources */,
 				25775A991C4B17C40036A759 /* SWRevealViewController.m in Sources */,
 				25B598E01C307BDC00A11412 /* ViewController.swift in Sources */,
 				25B598DE1C307BDC00A11412 /* AppDelegate.swift in Sources */,
+				25080FBD1C58191000148BA1 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

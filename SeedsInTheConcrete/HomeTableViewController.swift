@@ -9,7 +9,8 @@
 import UIKit
 
 class HomeTableViewController: UITableViewController {
-
+    
+    var SectionNamesCellData = ["The Book","The Album","The Cinema","Character Bio","App Features","SITC Store"];
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
    
@@ -72,22 +73,28 @@ class HomeTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return SectionNamesCellData.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("SectionNamesCell", forIndexPath: indexPath)
+        let secondCell = tableView.dequeueReusableCellWithIdentifier("TheBookCell", forIndexPath: indexPath) as! TheBookTableViewCell
+        
+        
+        secondCell.imageView?.image = UIImage(named: "Background")
 
         //Makes cell go from edge to edge
         cell.layoutMargins = UIEdgeInsetsZero
+        cell.textLabel?.text = SectionNamesCellData[indexPath.row]
 
         return cell
+        
     }
     
 
