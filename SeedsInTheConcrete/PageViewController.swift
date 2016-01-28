@@ -30,20 +30,20 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
     
     func pageViewController(pageViewController: UIPageViewController,
         viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-        var index = (viewController as! PageContentViewController).index
+        var theIndex = (viewController as! PageContentViewController).index
         
-        index++
+        theIndex++
         
-        return self.viewControllerAtIndex(index)
+        return self.viewControllerAtIndex(theIndex)
     }
     
     func pageViewController(pageViewController: UIPageViewController,
             viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-            var index = (viewController as! PageContentViewController).index
+            var theIndex = (viewController as! PageContentViewController).index
             
-            index--
+            theIndex--
             
-            return self.viewControllerAtIndex(index)
+            return self.viewControllerAtIndex(theIndex)
     }
     
     
@@ -80,11 +80,11 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
             }
         
                 //ADDING BACKGROUND IMAGE TO THE CONTROLLER, THIS IMAGE WILL STAY WHILE THE CONTENT SLIDES IN FRONT OF IT.
-                let imageView = UIImageView(frame: view.bounds)
-                imageView.contentMode = .ScaleAspectFit
-                imageView.image = UIImage(named: "SITC Background (Purple)")
-                self.view.addSubview(imageView)
-                self.view.sendSubviewToBack(imageView)
+                let theImageView = UIImageView(frame: view.bounds)
+                theImageView.contentMode = .ScaleAspectFit
+                theImageView.image = UIImage(named: "SITC Background (Purple)")
+                self.view.addSubview(theImageView)
+                self.view.sendSubviewToBack(theImageView)
                 
         
         
